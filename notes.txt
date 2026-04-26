@@ -1,3 +1,6 @@
 Errors
 'insufficient_quota' - Purchase credits
 'Incorrect API key provided - Use correct API key
+
+Command to run application
+flask --app main run --debug
