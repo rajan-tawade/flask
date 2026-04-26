@@ -75,9 +75,15 @@ flask/
 
 ### Example Request
 
-```bash
-curl -X POST http://127.0.0.1:5000/ask \
-  -d "question=What is Python?"
+```
+Browse http://127.0.0.1:5000/
+
+# Ask Anything
+Type question and click Ask
+
+# Summarize Email
+Paste email and click Summarize
+
 ```
 
 ## Configuration
@@ -92,6 +98,3 @@ curl -X POST http://127.0.0.1:5000/ask \
 - **AI:** OpenAI API (GPT-5.4)
 - **Frontend:** HTML, CSS, JavaScript
 
-## License
-
-MIT
